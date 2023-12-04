@@ -1,0 +1,9 @@
+vnstock
+plotly
+beautifulsoup4
+matplotlib
+scikit-learn
+keras
+tensorflow
+numpy
+math
