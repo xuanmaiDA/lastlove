@@ -302,3 +302,6 @@ bang_danh_gia = pd.DataFrame([['Linear Regression',gia_trung_binh_test, rmse1, m
               ['SVM',gia_trung_binh_test, rmse3, mae3, mape3],
               ['LSTM',gia_trung_binh_test, rmse4, mae4, mape4]],
              columns = ['Model', 'Giá trung bình', 'RMSE', 'MAE', 'MAPE'])
+# Hiển thị bảng đánh giá trên Streamlit
+st.title('Bảng đánh giá')
+st.table(bang_danh_gia.to_html())
